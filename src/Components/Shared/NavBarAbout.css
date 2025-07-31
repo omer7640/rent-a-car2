@@ -1,0 +1,54 @@
+.navbar {
+  --bs-navbar-padding-y: 0rem;
+}
+.adress-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 30px;
+  padding-right: 66px;
+  /* padding-top: 10px; */
+}
+.phone-details,
+.adress-details {
+  display: flex;
+  padding-top: 3px;
+  word-spacing: 8px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 350;
+}
+.nav-2::before {
+  background-color: black;
+}
+.css-r6ewbb-MuiToolbar-root {
+  height: 85px;
+}
+.phone-details {
+  padding-right: 20px;
+}
+.adress-details {
+  margin-left: 20px;
+}
+.phone-ic {
+  width: 19px !important;
+  margin-right: 7px;
+}
+.btn-for-about,
+.menu-about {
+  color: black;
+  border-color: black;
+}
+.about-nav-container {
+  margin-top: 10px;
+  /* margin-bottom: 12px; */
+  padding: 0px 76px;
+  /* border-bottom: 1px solid gray; */
+  padding: 20px;
+  height: 100px;
+}
+.navbar-nav2 {
+  color: black !important;
+}

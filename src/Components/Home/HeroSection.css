@@ -1,0 +1,271 @@
+/* .bg-img {
+  object-fit: contain;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  
+} */
+.navlink {
+  font-family: Inconsolata, sans-serif !important;
+  position: relative;
+  color: white;
+  cursor: pointer;
+  list-style: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth text movement */
+  display: inline-flex;
+  align-items: center;
+}
+.navlink::before {
+  content: "";
+  position: absolute;
+  left: -10px; /* Position the dot to the left */
+  transform: scale(0); /* Hide the dot initially */
+  width: 6px; /* Size of the dot */
+  height: 6px;
+  background-color: white; /* Dot color */
+  border-radius: 50%;
+  transition: transform 0.3s ease, left 0.3s ease;
+}
+
+/* On hover, show the dot and move the text */
+.navlink:hover::before {
+  transform: scale(1);
+  left: -20px; /* Move the dot further left */
+}
+
+.navlink:hover {
+  transform: translateX(10px); /* Move the text to the right */
+}
+.navlink.active::before {
+  transform: scale(1);
+  left: -20px;
+}
+
+.nav-link.active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.hero-section-top {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(../../assets/mustang.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: change 30s ease-in-out infinite;
+  overflow: hidden;
+  will-change: background-image;
+  animation-delay: 1s;
+  /* -webkit-transform: translate3d(0, 0, 0); */
+}
+
+@keyframes change {
+  0% {
+    background-image: url(../../assets/RRCoupe.jpg);
+    background-size: 100%;
+    background-position: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+  }
+  20% {
+    background-image: url(../../assets/mustang.jpg);
+    background-size: 110%;
+    background-position: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+  }
+  40% {
+    background-image: url(../../assets/rr.jpg);
+    background-size: 120%;
+    background-position: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+  }
+  60% {
+    background-image: url(../../assets/G63.jpg);
+    background-size: 110%;
+    background-position: center;
+  }
+  80% {
+    background-image: url(../../assets/RRCoupe.jpg);
+    background-size: 100%;
+    background-position: center;
+  }
+  100% {
+    background-image: url(../../assets/mustang.jpg);
+    background-size: 110%;
+    background-position: center;
+  }
+}
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navbar1 */
+
+.navbar-brand {
+  font-size: 30px;
+  margin-top: 16px;
+}
+li,
+svg {
+  color: white;
+  list-style: none;
+}
+.hr {
+  color: white;
+  margin: 0;
+  /* font-weight: !important; */
+}
+
+.telephone {
+  display: flex;
+  margin-top: 15px;
+  line-height: 20px;
+}
+.container-fluid1 {
+  display: flex !important;
+  justify-content: space-around !important;
+  gap: 400px;
+  padding-top: 4px;
+  margin-bottom: 8px;
+  color: white !important;
+}
+.container-fluid1 li {
+  color: white !important;
+}
+.main-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.numbers-sec {
+  display: flex;
+  gap: 42px;
+}
+.verticalLine {
+  border-left: thin solid white !important;
+  margin-right: -28px;
+}
+.navbar p,
+svg {
+  font-size: 14px;
+  word-spacing: 12px;
+}
+.nav .svg {
+  width: 15px !important;
+  height: 14px !important;
+  margin-right: 10px;
+}
+.container-fluid2 {
+  display: flex;
+  justify-content: space-around !important;
+
+  margin-top: 20px;
+}
+.collapse2 {
+  margin: 0 66px;
+}
+.navbar-nav2 {
+  gap: 40px;
+}
+.nav-sec {
+  border-bottom: 1px solid white;
+}
+.signin {
+  margin-right: 25px;
+}
+.menu-icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+.icon-sec {
+  padding-right: 6px;
+  padding-top: 2px;
+}
+.css-1uwgr7b-MuiTypography-root {
+  color: black !important;
+}
+/* Heromain-section */
+.heromain-section {
+  color: white;
+}
+
+.luxury {
+  margin-top: 119px;
+  margin-left: 89px;
+}
+.lux-para {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.lux-heading {
+  font-size: 52px;
+  font-weight: 400;
+}
+.form-section {
+  margin-top: 70px;
+  margin-left: 89px;
+}
+.input {
+  background-color: transparent !important;
+  padding-bottom: 18px !important;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  margin-right: 20px;
+  width: 220px;
+}
+.btn-send {
+  border: 1px solid;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 55px;
+  padding-left: 45px;
+  font-size: 20px;
+  border-radius: 0;
+  border-color: #bfa37c;
+}
+@media screen and (max-width: 1100px) {
+  .nav-sec {
+    visibility: hidden;
+    display: none;
+  }
+  .hero-section-top {
+    height: 160vh;
+  }
+}
+@media screen and (max-width: 431px) {
+  .hero-section-top {
+    height: 120vh;
+    animation: none;
+  }
+  .luxury {
+    margin-left: 0;
+    padding: 0 30px;
+  }
+  .lux-heading {
+    font-size: 39px;
+  }
+  .form-section {
+    margin-left: 0;
+    padding: 0 30px;
+  }
+  .input {
+    width: 100%;
+  }
+}

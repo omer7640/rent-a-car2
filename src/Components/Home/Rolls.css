@@ -1,0 +1,19 @@
+.roll-section {
+  background-color: #0c1315;
+  padding-top: 50px;
+}
+.rolls-all {
+  width: 80%;
+  margin: auto;
+}
+.rolls-pic {
+  width: 100%;
+  height: 351px;
+  object-fit: cover;
+}
+.rolls-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}

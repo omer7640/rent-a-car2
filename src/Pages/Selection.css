@@ -1,0 +1,136 @@
+.hero-fleet {
+  background-image: url(../assets/heroSportage.jpg);
+  width: 100%;
+  height: 515px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
+.hero-head {
+  font-size: 50px;
+  font-style: oblique;
+  color: white;
+}
+.main-fleet {
+  margin: 0 40px;
+  margin-top: 80px;
+}
+.card-selection {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 50px;
+}
+
+.card-fleet {
+  background-color: #f7f5f2 !important;
+  flex-grow: 1;
+  flex-basis: 200;
+  height: 604px;
+}
+.btn-fleet {
+  border: 1px solid #bfa37c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 20px;
+}
+.ind-selection-section {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 150px;
+}
+/* INDIVIDUAL SELECTION */
+.seat2 {
+  width: 693px;
+  height: 564px;
+  margin-bottom: 20px;
+}
+.small-comp {
+  width: 217px;
+  height: 177px;
+}
+.main-comp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.images-component {
+  width: 57%;
+}
+.right-comp {
+  width: 35%;
+}
+.p {
+  color: black !important ;
+  font-size: 18px;
+}
+/* .image6 {
+  width: 331px;
+  height: 139px;
+
+  margin-bottom: 80px;
+  aspect-ratio: auto 331 / 139;
+  border: none;
+  vertical-align: middle;
+} */
+.buttons {
+  margin-top: 40px;
+}
+.btn-ran {
+  padding: 8px 28px;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 11px;
+  margin: 2.5px;
+}
+.price-head {
+  border-bottom: 1px solid gray;
+
+  color: black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.content-images {
+  margin-top: 50px;
+}
+.heading-selection {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.selection-para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #404040;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin-bottom: 5px;
+}
+.neeche-images {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .main-comp {
+    flex-direction: column;
+  }
+  .images-component {
+    width: 100%;
+  }
+  .neeche-images {
+    flex-direction: column;
+  }
+  .small-comp {
+    width: 100%;
+    height: auto;
+  }
+  .right-comp {
+    width: 100%;
+  }
+}

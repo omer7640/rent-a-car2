@@ -1,0 +1,148 @@
+.review-box-section {
+  height: 160vh;
+  background-color: #0c1315;
+  padding-top: 140px;
+  color: white;
+}
+.rev-h1 {
+  width: 1100px;
+  margin: auto;
+  font-size: 56px;
+  font-weight: 450;
+}
+.rev-card {
+  width: 307px;
+  height: 347px;
+  border-left: 1px solid gray;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.rev-cards-section {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.rev-cards-all {
+  display: flex;
+  gap: 50px;
+  animation: slide 15s ease-in-out infinite; /* Use ease-in-out for smoother transitions */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* Start at the first card */
+  }
+  20% {
+    transform: translateX(0); /* Pause at the first card */
+  }
+  25% {
+    transform: translateX(
+      calc(-1 * 357px)
+    ); /* Smooth slide to the second card */
+  }
+  45% {
+    transform: translateX(calc(-1 * 357px)); /* Pause at the second card */
+  }
+  50% {
+    transform: translateX(
+      calc(-2 * 357px)
+    ); /* Smooth slide to the third card */
+  }
+  70% {
+    transform: translateX(calc(-2 * 357px)); /* Pause at the third card */
+  }
+  75% {
+    transform: translateX(
+      calc(-3 * 357px)
+    ); /* Smooth slide to the fourth card */
+  }
+  95% {
+    transform: translateX(calc(-3 * 357px)); /* Pause at the fourth card */
+  }
+  100% {
+    transform: translateX(
+      calc(-4 * 357px)
+    ); /* Loop back smoothly to the start */
+  }
+}
+
+.review-sum {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.rating-pic {
+  margin-bottom: 30px;
+}
+.rating-para {
+  width: 273px;
+  font-size: 18px;
+  color: gray;
+  font-weight: 500;
+}
+/*  
+.rev-cards-section {
+  position: relative;
+  overflow: hidden;
+}
+.rev-card {
+  position: absolute;
+  top: 0;
+  animation: slide 4s infinite;
+}
+@keyframes slide {
+  0% {
+    right: 0;
+  }
+  25% {
+    right: 4rem;
+  }
+  50% {
+    right: 8rem;
+  }
+}
+*/
+@media screen and (max-width: 1100px) {
+  .review-box-section {
+    height: 210vh;
+  }
+  .review-head {
+    width: 90%;
+    margin: auto;
+  }
+  .rev-h1 {
+    width: 100%;
+    font-size: 48px;
+  }
+  .rev-cards-section {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .rev-end {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  .rev-end {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 431px) {
+  .end-2 {
+    display: none;
+    visibility: hidden;
+  }
+  .review-box-section {
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 385px) {
+  .review-box-section {
+    height: 200vh;
+  }
+}

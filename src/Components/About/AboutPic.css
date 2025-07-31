@@ -1,0 +1,139 @@
+/* .aboutPicSection {
+  background-image: url(../../assets/mercedes2.jpg);
+  /* height: 80vh; 
+  height: 515px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.comf-about {
+  background-color: white !important;
+  color: black !important;
+} */
+.ab-section {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 112px;
+  margin-top: 100px;
+  color: black;
+}
+
+.we-provide {
+  font-size: 44px;
+  font-weight: 400;
+}
+.ab-para {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 10px 0;
+  color: black;
+}
+.thora {
+  margin-bottom: 20px;
+}
+.MuiSvgIcon-root {
+  color: black;
+}
+.comf-2-sec {
+  width: 80% !important;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+.img-ab {
+  width: 545px;
+  height: 545px;
+}
+.im-hover {
+  transition: transform 0.3s ease-in-out;
+}
+.im-hover:hover {
+  transform: scale(1.1);
+}
+.comf-22 {
+  display: flex;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+}
+.ab-small {
+  width: 300px !important;
+  height: 262px;
+}
+.ab2 {
+  width: 267px;
+}
+.seat {
+  margin-bottom: 20px;
+}
+.pic-point {
+  cursor: pointer;
+}
+
+/* .qode::before {
+  content: "";
+  display: block;
+  height: 100px;
+  width: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #d9d6ce;
+} */
+.css-5984il-JoyGrid-root {
+  max-width: 80%;
+  margin: auto !important;
+  gap: 75px;
+  margin-top: 120px !important;
+}
+.brand-pic {
+  /* border-left: 1px solid; */
+  /* flex-wrap: wrap;
+  align-items: center; */
+}
+
+.sec-pic {
+  background-image: url(../../assets/professor.jpg);
+  width: 100%;
+  height: 483px;
+  margin: 100px 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.MuiBox-root,
+.css-1gh2klf {
+  /* width: 100%; */
+}
+
+/* cards */
+
+.css-6e7lq1-JoyAspectRatio-content {
+  background-color: white !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .comf-22 {
+    flex-direction: column;
+  }
+  .ab-small {
+    width: 100% !important;
+    height: auto;
+  }
+  .ab2 {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .ab-section {
+    flex-direction: column;
+  }
+  .MuiGrid-root {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}

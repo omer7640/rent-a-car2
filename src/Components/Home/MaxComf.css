@@ -1,0 +1,120 @@
+.comfy-section {
+  background-color: #0c1315;
+  height: 230vh;
+  color: white;
+  padding-top: 140px;
+}
+.heading-section {
+  position: relative;
+  margin-left: 100px;
+  width: 1100px;
+  border-bottom: 1px solid white;
+}
+.border-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px; /* Border thickness */
+  width: 100%;
+  background-color: gray; /* Border color */
+  transform: scaleX(0); /* Initially hidden */
+  transform-origin: left;
+}
+.ride-h2 {
+  font-size: 42px;
+  font-weight: 400;
+  word-spacing: break-word;
+  width: 500px;
+}
+.fine-para {
+  margin-bottom: 50px;
+  color: #bfa37c;
+}
+/* FEATURE SECTION */
+
+.feature-section {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  margin-right: 85px;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+.feat-container-1,
+.feat-container-2 {
+  width: 450px;
+}
+.ft-box {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.ft-heading {
+  font-size: 24px;
+  line-height: 1.45455em;
+  font-weight: 400;
+}
+.ft-box > p {
+  margin-top: 9px;
+  color: #a6a6a6;
+}
+.sportage-img {
+  width: 1150px;
+}
+.img-section {
+  width: 1150px;
+  margin: auto;
+}
+@media screen and (max-width: 1100px) {
+  .comfy-section {
+    height: 300vh;
+  }
+  .heading-section {
+    width: 80% !important;
+  }
+  .img-section {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .feature-section {
+    margin-right: 0;
+    padding: 0 90px;
+  }
+  .ride-h2 {
+    width: 90% !important;
+  }
+  .comf-head {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 431px) {
+}
+ {
+  .heading-section {
+    /* width: 70% !important; */
+    margin-left: 0 !important;
+    margin: 0 30px !important;
+  }
+  .feature-section {
+    flex-direction: column;
+
+    padding: 0 !important;
+    /* padding: 0 30px !important; */
+  }
+  .feat-container-1 {
+    width: 80% !important;
+    margin: auto;
+  }
+  .feat-container-2 {
+    width: 80% !important;
+    margin: auto;
+  }
+  .comfy-section {
+    height: 190vh;
+  }
+}
+@media screen and (max-width: 385px) {
+  .comfy-section {
+    height: 232vh;
+  }
+}
