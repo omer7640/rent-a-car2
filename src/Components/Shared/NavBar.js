@@ -115,7 +115,7 @@ function Navbar() {
       </nav>
 
       {/* SECOND NAV */}
-      <AppBar position="static">
+      <AppBar position="static" sx={{ backgroundColor: "transparent" }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
